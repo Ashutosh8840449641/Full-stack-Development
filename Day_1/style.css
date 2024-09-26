@@ -6,5 +6,8 @@ tr{
     color:red;
 }
 table{
-    
+    border-radius: 12px;
+    border-color: brown;
+    border-style: groove;
+    border-width: 5px;
 }
