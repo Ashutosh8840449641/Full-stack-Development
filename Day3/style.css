@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+#myid{
+    background-color: aquamarine;
+    font-size: 50px;
+}
+.myclass{
+    color:blue;
+}
+.myclass{
+    color:blueviolet;
+}
+#myid2{
+    background-color: brown;
+    font-size: 20px;
+}
+div~p{
+    background-color:bisque;
+    font-size: 30px;
+}
