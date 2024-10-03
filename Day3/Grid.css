@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+
+}
+.item{
+    background-color: aqua;
+    padding: 10px;
+    border: 4px solid   violet;
+
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
