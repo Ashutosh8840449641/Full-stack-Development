@@ -1,5 +1,6 @@
 async function orderfood(name, time) {
     return new Promise((resolve, reject) => {
+        if (name == "Burger") reject("Burger Not Availbale");
         setTimeout(() => {
             resolve("Order for the " + name + "Prepared");
         },time);
